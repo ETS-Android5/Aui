@@ -1,4 +1,4 @@
-<img src="https://github.com/Concyline/Aui/blob/master/img/logo_projeto_novo.png" width="100%">
+<img src="https://github.com/Concyline/Aui/blob/master/img/logo_projeto_novo.png" width="40%">
 
 This library has 6 modules to aid Android development, speeding up the completion of the application
 
@@ -70,15 +70,16 @@ Add the following dependency into your module's build.gradle:
 
 TAG = [![](https://jitpack.io/v/Concyline/Ui.svg)](https://jitpack.io/#Concyline/Ui)
 
-
+ ```java
  defaultConfig {
         multiDexEnabled true
  }
-    
+   
+  
 dependencies {
 	implementation 'androidx.multidex:multidex:2.0.1'
 	
-	implementation 'com.github.Concyline:Calculadora:' = [![](https://jitpack.io/v/Concyline/Ui.svg)](https://jitpack.io/#Concyline/Ui)
+	implementation 'com.github.Concyline:Calculadora:1.0.0'
     	implementation 'com.github.Concyline:Campix:1.0.1'
     	implementation 'com.github.Concyline:Componentes:1.0.1'
     	implementation 'com.github.Concyline:Error:1.0.1'
@@ -91,7 +92,7 @@ dependencies {
     	implementation 'com.github.Concyline:Texto:1.0.1'
     	implementation 'com.github.Concyline:Util:1.0.1'
 }
-```java
+
 ```
 
 You can add below lines into your gradle.properties file:
