@@ -1414,10 +1414,27 @@ tv_hello.setTypeface(EasyFonts.robotoThin(this));
                         .setFrontfacing(false)
                         .setPath("pix/photo");
                 //.setFileName("teste");
-
-                Pix.start(CamPixActivity.this, options);
+		
+		Pix.start(capituraImageLaunch,this, options);
             }
         });
+	
+	ActivityResultLauncher<Intent> capituraImageLaunch = registerForActivityResult(new ActivityResultContracts.StartActivityForResult(), result -> {
+
+        try {
+
+            Intent intent = result.getData();
+
+            if (intent != null) {
+
+            }
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+
+    });
 	
  ````
  
