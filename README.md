@@ -1,4 +1,4 @@
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/logo_projeto_novo.png" width="100%">
+<img src="https://github.com/Concyline/Aui/blob/master/img/logo_projeto_novo.png" width="100%">
 
 This library has 6 modules to aid Android development, speeding up the completion of the application
 
@@ -91,11 +91,11 @@ android.enableJetifier=true
 
 
 ## Componentes
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/componentes.gif" width="20%">
+<img src="https://github.com/Concyline/Aui/blob/master/img/componentes.gif" width="20%">
 
 ### Simples
 
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/componentesimples.png" width="50%">
+<img src="https://github.com/Concyline/Aui/blob/master/img/componentesimples.png" width="50%">
 
 ```xml
  <br.com.componentes.EditTextTitle
@@ -115,7 +115,7 @@ android.enableJetifier=true
 ---
 ### Mascara
 
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/mascara.png" width="50%">
+<img src="https://github.com/Concyline/Aui/blob/master/img/mascara.png" width="50%">
 
 ```xml
 
@@ -139,7 +139,7 @@ android.enableJetifier=true
 ---
 ### Requerido
 
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/legenda_requerido.png" width="50%">
+<img src="https://github.com/Concyline/Aui/blob/master/img/legenda_requerido.png" width="50%">
 
 ```xml
     <br.com.componentes.EditTextTitle
@@ -159,7 +159,7 @@ android.enableJetifier=true
 ---
 ### Só data
 
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/sodata.png" width="50%">
+<img src="https://github.com/Concyline/Aui/blob/master/img/sodata.png" width="50%">
 
 ```xml
     <!-- the calendar listener is already implemented within the component -->
@@ -174,7 +174,7 @@ android.enableJetifier=true
 ---
 
 ### Spinner
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/spinner.png" width="50%">
+<img src="https://github.com/Concyline/Aui/blob/master/img/spinner.png" width="50%">
 
 ```xml
          <br.com.componentes.SpinnerTitle
@@ -196,7 +196,7 @@ spinnerTitle.setAdapter(adapter);
 ---
 ### Dara e Hora
 
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/calendarhoradata.png" width="50%">
+<img src="https://github.com/Concyline/Aui/blob/master/img/calendarhoradata.png" width="50%">
 
 ```xml
           <br.com.componentes.EditTextCalendar
@@ -210,7 +210,7 @@ spinnerTitle.setAdapter(adapter);
 
 ---
 ### Icon direita
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/iconedireita.png" width="50%">
+<img src="https://github.com/Concyline/Aui/blob/master/img/iconedireita.png" width="50%">
 
 ```xml
       <br.com.componentes.EditTextTitle
@@ -227,7 +227,7 @@ spinnerTitle.setAdapter(adapter);
 ---
 ### TextViewTitle
 
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/textocomlegenda.png" width="50%">
+<img src="https://github.com/Concyline/Aui/blob/master/img/textocomlegenda.png" width="50%">
 
 ```xml
     <br.com.componentes.TextViewTitle
@@ -252,7 +252,7 @@ textViewTitle.setFont("fonts/Lobster-Regular.ttf");
 ---
 ### EditTextSearch
 
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/pesquisasimples.png" width="50%">
+<img src="https://github.com/Concyline/Aui/blob/master/img/pesquisasimples.png" width="50%">
 
 ```xml
    <br.com.componentes.EditTextSearch
@@ -279,7 +279,7 @@ searchLegenda.setInputTypeSearch(Constantes.textPassword);
 ---
 ### Multiline
 
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/multiline.png" width="50%">
+<img src="https://github.com/Concyline/Aui/blob/master/img/multiline.png" width="50%">
 
 ````xml
     <br.com.componentes.EditTextTitle
@@ -298,7 +298,7 @@ searchLegenda.setInputTypeSearch(Constantes.textPassword);
 ---
 ### PassWord
 
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/senha.png" width="50%">
+<img src="https://github.com/Concyline/Aui/blob/master/img/senha.png" width="50%">
 
 ```xml
       <br.com.componentes.EditTextTitle
@@ -325,7 +325,7 @@ final EditTextTitle senhaEditTextTitle = findViewById(R.id.senhaEditTextTitle);
 ---
 ### EditTexCurrency
 
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/componente_currence.png" width="50%">
+<img src="https://github.com/Concyline/Aui/blob/master/img/componente_currence.png" width="50%">
 
 ```xml
          <br.com.componentes.EditTexCurrency
@@ -346,7 +346,7 @@ final EditTextTitle senhaEditTextTitle = findViewById(R.id.senhaEditTextTitle);
 ---
 ### RecyclerViewParallax
 
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/reciclerview_parallax.gif" width="20%">
+<img src="https://github.com/Concyline/Aui/blob/master/img/reciclerview_parallax.gif" width="20%">
 
 ```xml
     <br.com.componentes.RecyclerViewParallax
@@ -359,7 +359,7 @@ final EditTextTitle senhaEditTextTitle = findViewById(R.id.senhaEditTextTitle);
 ---
 ### RecyclerViewButton
 
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/recyclerviewbutton.png" width="20%">
+<img src="https://github.com/Concyline/Aui/blob/master/img/recyclerviewbutton.png" width="20%">
 
 XML file
 ```xml
@@ -485,9 +485,9 @@ Adapter
 ---
 ### ProgressImageView
 
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/progress_image.png" width="50%">
+<img src="https://github.com/Concyline/Aui/blob/master/img/progress_image.png" width="50%">
 
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/progress_image_click.png" width="50%">
+<img src="https://github.com/Concyline/Aui/blob/master/img/progress_image_click.png" width="50%">
 
 ```xml
     <br.com.componentes.ProgressImageView
@@ -517,8 +517,8 @@ Adapter
 ---
 ### ProgressButton
 
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/progres_button.png" width="50%"> 
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/progres_button_pressed.png" width="50%">
+<img src="https://github.com/Concyline/Aui/blob/master/img/progres_button.png" width="50%"> 
+<img src="https://github.com/Concyline/Aui/blob/master/img/progres_button_pressed.png" width="50%">
 
 ```xml
     <br.com.componentes.ProgressButton
@@ -550,8 +550,8 @@ final ProgressButton progressButtonOk = findViewById(R.id.progressButtonOk);
 ---
 ### HelpButton
 
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/help_buttom.png" width="20%"> 
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/dialog_help_buttom.png" width="20%">
+<img src="https://github.com/Concyline/Aui/blob/master/img/help_buttom.png" width="20%"> 
+<img src="https://github.com/Concyline/Aui/blob/master/img/dialog_help_buttom.png" width="20%">
 
 ```xml
   <br.com.componentes.HelpButton
@@ -572,7 +572,7 @@ final ProgressButton progressButtonOk = findViewById(R.id.progressButtonOk);
 ---
 ### RoundishImageView
 
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/image_rounted.png" width="20%">
+<img src="https://github.com/Concyline/Aui/blob/master/img/image_rounted.png" width="20%">
 
 ````xml
      <br.com.componentes.RoundishImageView
@@ -588,7 +588,7 @@ final ProgressButton progressButtonOk = findViewById(R.id.progressButtonOk);
 ---
 ### RoundImageView
 
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/rount_image.png" width="20%">
+<img src="https://github.com/Concyline/Aui/blob/master/img/rount_image.png" width="20%">
 
 ````xml
      <br.com.componentes.RoundImageView
@@ -604,7 +604,7 @@ final ProgressButton progressButtonOk = findViewById(R.id.progressButtonOk);
 
 ## Custon Dialog
 
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/custon_dimness.png" width="20%"/> <img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/error_dialog.png" width="20%"/> <img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/circle_dialog.png" width="20%"/> <img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/custon_background_color.png" width="20%"/>  
+<img src="https://github.com/Concyline/Aui/blob/master/img/custon_dimness.png" width="20%"/> <img src="https://github.com/Concyline/Aui/blob/master/img/error_dialog.png" width="20%"/> <img src="https://github.com/Concyline/Aui/blob/master/img/circle_dialog.png" width="20%"/> <img src="https://github.com/Concyline/Aui/blob/master/img/custon_background_color.png" width="20%"/>  
 
 ````java
 new CDialog(ComponentesDoisActivity.this)
@@ -656,7 +656,7 @@ new CDialog(ParametrosActivity.this)
 
 ## SnackBar
 
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/sneckbar.png" width="20%"/> 
+<img src="https://github.com/Concyline/Aui/blob/master/img/sneckbar.png" width="20%"/> 
 
 ````java
  new CDialog(ComponentesDoisActivity.this)
@@ -670,7 +670,7 @@ new CDialog(ParametrosActivity.this)
 
  ## Manipulador de texto
   
-  <img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/manipulatexto.gif" width="20%">
+  <img src="https://github.com/Concyline/Aui/blob/master/img/manipulatexto.gif" width="20%">
   
   ### Usage
   
@@ -736,7 +736,7 @@ new CDialog(ParametrosActivity.this)
 
 ## CustomDialog
 
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/cuson_dialog.png" width="20%"/> 
+<img src="https://github.com/Concyline/Aui/blob/master/img/cuson_dialog.png" width="20%"/> 
 
 in res/layout/cadastro.xml
 ````xml
@@ -822,7 +822,7 @@ in onCreate
 
 ## GeometricProgress
 
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/geometric_progress.gif" width="20%"/> 
+<img src="https://github.com/Concyline/Aui/blob/master/img/geometric_progress.gif" width="20%"/> 
 
 ````xml
  <br.com.componentes.GeometricProgressView
@@ -849,7 +849,7 @@ progressView.setFigurePadding(getResources().getDimensionPixelOffset(R.dimen.fig
 
 ## DotLoader
 
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/loading_anim.gif" width="50%"/> 
+<img src="https://github.com/Concyline/Aui/blob/master/img/loading_anim.gif" width="50%"/> 
 
 ````xml
  <br.com.componentes.DotLoader
@@ -883,7 +883,7 @@ dotLoader.postDelayed(new Runnable() {
 
 ## ProgressIndeterminate
 
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/progres_indetermined.png" width="20%"/> 
+<img src="https://github.com/Concyline/Aui/blob/master/img/progres_indetermined.png" width="20%"/> 
 
 ````java
 ProgressIndeterminate progressDialog = new ProgressIndeterminate(ComponentesDoisActivity.this).
@@ -907,7 +907,7 @@ ProgressIndeterminate progressDialog = ProgressIndeterminate.show(ComponentesDoi
 ---
 ## SwipeLayout
 
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/swipe_rigth.png" width="20%"/> 
+<img src="https://github.com/Concyline/Aui/blob/master/img/swipe_rigth.png" width="20%"/> 
 
 ````xml
 <br.com.componentes.SwipeLayout
@@ -1016,7 +1016,7 @@ public listeners
   ---
   ## Leitor Qr and CodeBar
   
-  <img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/leitor.gif" width="20%">
+  <img src="https://github.com/Concyline/Aui/blob/master/img/leitor.gif" width="20%">
   
   ### Usage
   
@@ -1093,7 +1093,7 @@ public listeners
 ````
 ---
 ## ShortCut
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/shortcut.png" width="20%">
+<img src="https://github.com/Concyline/Aui/blob/master/img/shortcut.png" width="20%">
 
  ### Usage
  
@@ -1138,7 +1138,7 @@ shortcutUtils.removeDynamicShortCut(dynamicShortcut);
  ---
  ## Permisions
  
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/permisions.png" width="20%">
+<img src="https://github.com/Concyline/Aui/blob/master/img/permisions.png" width="20%">
 
  ### Usage
  
@@ -1168,7 +1168,7 @@ Permissions.check(MainActivity.this, permissions, null, null, new PermissionHand
  ---
  ## Util
  
- <img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/util_dois.gif" width="20%">
+ <img src="https://github.com/Concyline/Aui/blob/master/img/util_dois.gif" width="20%">
  
  ### Usage
  ````java
@@ -1302,7 +1302,7 @@ Use: BackgroundTask.post() To send message from WorkerThread to MainThread just 
  ---
 ## EasyFonts
  
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/font.png" width="20%">
+<img src="https://github.com/Concyline/Aui/blob/master/img/font.png" width="20%">
 
 ````java
 TextView tv_hello = (TextView) findViewById(R.id.tv_hello);
@@ -1312,7 +1312,7 @@ tv_hello.setTypeface(EasyFonts.robotoThin(this));
  ---
 ## EasyLocation
  
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/easy_location.png" width="20%">
+<img src="https://github.com/Concyline/Aui/blob/master/img/easy_location.png" width="20%">
 
 ````xml
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
@@ -1350,7 +1350,7 @@ tv_hello.setTypeface(EasyFonts.robotoThin(this));
 
 ## ActionBarCuston
  
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/actionbar.png" width="20%">
+<img src="https://github.com/Concyline/Aui/blob/master/img/actionbar.png" width="20%">
 
 ````java
      ActionBarCuston actionBarCuston = new ActionBarCuston(this);
@@ -1363,12 +1363,12 @@ tv_hello.setTypeface(EasyFonts.robotoThin(this));
 
 ## MeasureIcon
 
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/icon_measure.png" width="50%">
+<img src="https://github.com/Concyline/Aui/blob/master/img/icon_measure.png" width="50%">
  
  ---
  ## CamPix
  
- <img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/campix.png" width="20%">
+ <img src="https://github.com/Concyline/Aui/blob/master/img/campix.png" width="20%">
  
  ### Usage
  
@@ -1444,7 +1444,7 @@ tv_hello.setTypeface(EasyFonts.robotoThin(this));
 ---
 ## PhotoView
 
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/photo_view.gif" width="20%">
+<img src="https://github.com/Concyline/Aui/blob/master/img/photo_view.gif" width="20%">
  
 ### Usage
 ````xml
@@ -1464,7 +1464,7 @@ photoView.setImageResource(R.drawable.image);
 ---
 ## Zoom Frame
 
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/zoom.gif" width="20%">
+<img src="https://github.com/Concyline/Aui/blob/master/img/zoom.gif" width="20%">
  
  ### Usage
  ````xml
@@ -1478,7 +1478,7 @@ photoView.setImageResource(R.drawable.image);
  ---
  ## Hawk
  
- <img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/hawk.png" width="20%">
+ <img src="https://github.com/Concyline/Aui/blob/master/img/hawk.png" width="20%">
  
  ### Usage
  ````java
@@ -1509,7 +1509,7 @@ Hawk.deleteAll();
  ---
 ## CalculatorDialog 
 
-<img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/calculator_ligth.png" width="20%"> <img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/calculator_dark.png" width="20%">
+<img src="https://github.com/Concyline/Aui/blob/master/img/calculator_ligth.png" width="20%"> <img src="https://github.com/Concyline/Aui/blob/master/img/calculator_dark.png" width="20%">
  
  ### Usage
  ````java
@@ -1524,7 +1524,7 @@ Hawk.deleteAll();
  ---
  ## KeyBoardDialog 
  
- <img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/keyboard.png" width="20%">
+ <img src="https://github.com/Concyline/Aui/blob/master/img/keyboard.png" width="20%">
  
  ### Usage
  ````java
@@ -1546,7 +1546,7 @@ Hawk.deleteAll();
  ---
  ## HttpAgent
  
- <img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/httagent.png" width="20%">
+ <img src="https://github.com/Concyline/Aui/blob/master/img/httagent.png" width="20%">
  
  ### Usage
  ````java
@@ -1617,8 +1617,8 @@ goJsonArray(new JsonArrayCallback() {
   ---
  ## SOAPManager
  
- <img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/soapaction.png" width="20%">
- <img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/wsdl.png" width="50%">
+ <img src="https://github.com/Concyline/Aui/blob/master/img/soapaction.png" width="20%">
+ <img src="https://github.com/Concyline/Aui/blob/master/img/wsdl.png" width="50%">
  
  SOAP has been losing ground to REST services in mobile the last years, thus losing attention. But SOAP isn't gone and many still use it. The thing is that it usually requires a lot of work from the dev to create and parse all the messages.
 
@@ -1712,7 +1712,7 @@ private void get() {
  ---
  ## SignaturePad
  
- <img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/signature.png" width="20%">
+ <img src="https://github.com/Concyline/Aui/blob/master/img/signature.png" width="20%">
  
  ### Usage
  
@@ -1768,7 +1768,7 @@ private void get() {
  ---
  ## UnCaughtException
  
- <img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/error_dois.png" width="20%">
+ <img src="https://github.com/Concyline/Aui/blob/master/img/error_dois.png" width="20%">
  
 Tracking down all exceptions is the crucial part of the development. We could just expect that we have handled all exceptions. But whatever we do, we come across it with the so-called pop-up saying “Unfortunately, App has stopped”, that is why it is called uncaught-exceptions.
  
@@ -1820,10 +1820,10 @@ Resources
 
 | Drawable | Description | Image |
 | --- | --- | --- |
-| shadow | Composes with edges like a cardboard | <img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/shadow_img.png" 		width="50px">  |
-| shadow_selected | Composes with edges like a cardboard selected | <img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/shadow_selected_img.png" width="50px"> |
-| edit_selector | skin for custom Edittext | <img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/estados_edittext.png" 		width="50px">  |
-| spinner_selector | skin for custom Spinner | <img src="https://github.com/Concyline/AndroidUi_2/blob/master/img/estados_spinner.png" 		width="50px">  |
+| shadow | Composes with edges like a cardboard | <img src="https://github.com/Concyline/Aui/blob/master/img/shadow_img.png" 		width="50px">  |
+| shadow_selected | Composes with edges like a cardboard selected | <img src="https://github.com/Concyline/Aui/blob/master/img/shadow_selected_img.png" width="50px"> |
+| edit_selector | skin for custom Edittext | <img src="https://github.com/Concyline/Aui/blob/master/img/estados_edittext.png" 		width="50px">  |
+| spinner_selector | skin for custom Spinner | <img src="https://github.com/Concyline/Aui/blob/master/img/estados_spinner.png" 		width="50px">  |
 
 Contact
 ========
