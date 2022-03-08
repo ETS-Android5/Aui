@@ -71,7 +71,20 @@ Add the following dependency into your module's build.gradle:
 TAG = [![](https://jitpack.io/v/Concyline/Ui.svg)](https://jitpack.io/#Concyline/Ui)
 
 dependencies { <br />
-&emsp; &emsp; &emsp; &emsp; implementation 'androidx.multidex:multidex:2.0.1'<br />
+&emsp; &emsp; &emsp; implementation 'androidx.multidex:multidex:2.0.1'<br />
+<br />
+&emsp; &emsp; &emsp; implementation 'com.github.Concyline:Calculadora:>' [![](https://jitpack.io/v/Concyline/Calculadora.svg)](https://jitpack.io/#Concyline/Calculadora)<br />
+&emsp; &emsp; &emsp; implementation 'com.github.Concyline:Campix:>' [![](https://jitpack.io/v/Concyline/Campix.svg)](https://jitpack.io/#Concyline/Campix)<br />
+&emsp; &emsp; &emsp; implementation 'com.github.Concyline:Componentes:>' [![](https://jitpack.io/v/Concyline/Componentes.svg)](https://jitpack.io/#Concyline/Componentes)<br />
+&emsp; &emsp; &emsp; implementation 'com.github.Concyline:Error:>' [![](https://jitpack.io/v/Concyline/Error.svg)](https://jitpack.io/#Concyline/Error)<br />
+&emsp; &emsp; &emsp; implementation 'com.github.Concyline:Hawk:>' [![](https://jitpack.io/v/Concyline/Hawk.svg)](https://jitpack.io/#Concyline/Hawk)<br />
+&emsp; &emsp; &emsp; implementation 'com.github.Concyline:Httpagent:>' [![](https://jitpack.io/v/Concyline/Httpagent.svg)](https://jitpack.io/#Concyline/Httpagent)<br />
+&emsp; &emsp; &emsp; implementation 'com.github.Concyline:Leitor:>' [![](https://jitpack.io/v/Concyline/Leitor.svg)](https://jitpack.io/#Concyline/Leitor)<br />
+&emsp; &emsp; &emsp; implementation 'com.github.Concyline:Permision:>' [![](https://jitpack.io/v/Concyline/Permision.svg)](https://jitpack.io/#Concyline/Permision)<br />
+&emsp; &emsp; &emsp; implementation 'com.github.Concyline:Shortcut:>' [![](https://jitpack.io/v/Concyline/Shortcut.svg)](https://jitpack.io/#Concyline/Shortcut)<br />
+&emsp; &emsp; &emsp; implementation 'com.github.Concyline:Signature:>' [![](https://jitpack.io/v/Concyline/Signature.svg)](https://jitpack.io/#Concyline/Signature)<br />
+&emsp; &emsp; &emsp; implementation 'com.github.Concyline:Texto:>' [![](https://jitpack.io/v/Concyline/Texto.svg)](https://jitpack.io/#Concyline/Texto)<br />
+&emsp; &emsp; &emsp; implementation 'com.github.Concyline:Util:>' [![](https://jitpack.io/v/Concyline/Util.svg)](https://jitpack.io/#Concyline/Util)<br />
 }
 
 
@@ -82,20 +95,18 @@ dependencies { <br />
    
   
 dependencies {
-	implementation 'androidx.multidex:multidex:2.0.1'
-	
-	implementation 'com.github.Concyline:Calculadora:1.0.0'
-    	implementation 'com.github.Concyline:Campix:1.0.1'
-    	implementation 'com.github.Concyline:Componentes:1.0.1'
-    	implementation 'com.github.Concyline:Error:1.0.1'
-    	implementation 'com.github.Concyline:Hawk:1.0.1'
-    	implementation 'com.github.Concyline:Httpagent:1.0.1'
-    	implementation 'com.github.Concyline:Leitor:1.0.1'
-    	implementation 'com.github.Concyline:Permision:1.0.1'
-    	implementation 'com.github.Concyline:Shortcut:1.0.1'
-    	implementation 'com.github.Concyline:Signature:1.0.1'
-    	implementation 'com.github.Concyline:Texto:1.0.1'
-    	implementation 'com.github.Concyline:Util:1.0.1'
+
+    	implementation 'com.github.Concyline::1.0.1'
+    	implementation 'com.github.Concyline::1.0.1'
+    	implementation 'com.github.Concyline::1.0.1'
+    	implementation 'com.github.Concyline::1.0.1'
+    	implementation 'com.github.Concyline::1.0.1'
+    	implementation 'com.github.Concyline::1.0.1'
+    	implementation 'com.github.Concyline::1.0.1'
+    	implementation 'com.github.Concyline::1.0.1'
+    	implementation 'com.github.Concyline::1.0.1'
+    	implementation 'com.github.Concyline::1.0.1'
+    	implementation 'com.github.Concyline::1.0.1'
 }
 
 ```
