@@ -70,6 +70,11 @@ Add the following dependency into your module's build.gradle:
 
 TAG = [![](https://jitpack.io/v/Concyline/Ui.svg)](https://jitpack.io/#Concyline/Ui)
 
+ defaultConfig { <br />
+ &emsp; &emsp; &emsp; multiDexEnabled true <br />
+ }
+   
+   
 dependencies { <br />
 &emsp; &emsp; &emsp; implementation 'androidx.multidex:multidex:2.0.1'<br />
 <br />
@@ -87,29 +92,6 @@ dependencies { <br />
 &emsp; &emsp; &emsp; implementation 'com.github.Concyline:Util:>' [![](https://jitpack.io/v/Concyline/Util.svg)](https://jitpack.io/#Concyline/Util)<br />
 }
 
-
- ```java
- defaultConfig {
-        multiDexEnabled true
- }
-   
-  
-dependencies {
-
-    	implementation 'com.github.Concyline::1.0.1'
-    	implementation 'com.github.Concyline::1.0.1'
-    	implementation 'com.github.Concyline::1.0.1'
-    	implementation 'com.github.Concyline::1.0.1'
-    	implementation 'com.github.Concyline::1.0.1'
-    	implementation 'com.github.Concyline::1.0.1'
-    	implementation 'com.github.Concyline::1.0.1'
-    	implementation 'com.github.Concyline::1.0.1'
-    	implementation 'com.github.Concyline::1.0.1'
-    	implementation 'com.github.Concyline::1.0.1'
-    	implementation 'com.github.Concyline::1.0.1'
-}
-
-```
 
 You can add below lines into your gradle.properties file:
 
