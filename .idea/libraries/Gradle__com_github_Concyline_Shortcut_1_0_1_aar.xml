@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Concyline:Shortcut:1.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5faa943c18962498e9c1e0aeaa198e18/transformed/Shortcut-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5faa943c18962498e9c1e0aeaa198e18/transformed/Shortcut-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5faa943c18962498e9c1e0aeaa198e18/transformed/Shortcut-1.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Concyline/Shortcut/1.0.1/d12b0f93db9da36b82d50e8650387d0200ab6ba3/Shortcut-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Concyline:Campix:1.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/81416b4c5df326fa5f81c498c8478613/transformed/Campix-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/81416b4c5df326fa5f81c498c8478613/transformed/Campix-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/81416b4c5df326fa5f81c498c8478613/transformed/Campix-1.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Concyline/Campix/1.0.1/1f3fdb0659931243b011d1fb2fdbeefa9eefeda6/Campix-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

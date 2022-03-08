@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Concyline:Leitor:1.0.1@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/fcd2048573eedb4d0b8a9fddd341d0d0/transformed/Leitor-1.0.1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/fcd2048573eedb4d0b8a9fddd341d0d0/transformed/Leitor-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fcd2048573eedb4d0b8a9fddd341d0d0/transformed/Leitor-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fcd2048573eedb4d0b8a9fddd341d0d0/transformed/Leitor-1.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Concyline/Leitor/1.0.1/5a568b4ae924e7e53f12b6c0417a75ea154ffd63/Leitor-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

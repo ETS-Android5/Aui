@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/componentesButton"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:text="Componentes"
+        android:textAllCaps="false"
+        android:layout_marginRight="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/componentesDoisButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/componentesDoisButton"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:text="Componentes Dois"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/componentesButton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/textoButton"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:text="Manipulador de texto"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/zoomFrameButton"
+        app:layout_constraintTop_toBottomOf="@+id/calculadoraButton" />
+
+    <Button
+        android:id="@+id/leitorButton"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:text="Leitor Qr CodeBar"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/componentesTresButton"
+        app:layout_constraintTop_toBottomOf="@+id/componentesDoisButton" />
+
+    <Button
+        android:id="@+id/permision"
+        android:layout_width="392dp"
+        android:layout_height="wrap_content"
+        android:text="Permision"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/abaixaTeclado"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:text="Util"
+        android:layout_marginRight="5dp"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toStartOf="@+id/campix"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/componentesTresButton" />
+
+    <Button
+        android:id="@+id/campix"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:text="CamPix"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/abaixaTeclado"
+        app:layout_constraintTop_toBottomOf="@+id/leitorButton" />
+
+    <Button
+        android:id="@+id/zoomFrameButton"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:text="Zoom Frame"
+        android:layout_marginRight="5dp"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toStartOf="@+id/textoButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/halkButton" />
+
+    <Button
+        android:id="@+id/halkButton"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:text="Halk"
+        android:layout_marginRight="5dp"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toStartOf="@+id/calculadoraButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/abaixaTeclado" />
+
+    <Button
+        android:id="@+id/SwipeLayoutButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="SwipeLayout"
+        android:textAllCaps="false"
+        android:layout_marginRight="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/httpAgentButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textoButton" />
+
+    <Button
+        android:id="@+id/componentesTresButton"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:text="Componentes Tres"
+        android:layout_marginRight="5dp"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toStartOf="@+id/leitorButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/componentesButton" />
+
+    <Button
+        android:id="@+id/calculadoraButton"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:text="Calculadora"
+        android:textAllCaps="false"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/halkButton"
+        app:layout_constraintTop_toBottomOf="@+id/campix" />
+
+    <Button
+        android:id="@+id/httpAgentButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="HttpAgent"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/SwipeLayoutButton"
+        app:layout_constraintTop_toBottomOf="@+id/textoButton" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Fonts"
+        android:textAllCaps="false"
+        android:layout_marginRight="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/button18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SwipeLayoutButton" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Signature"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button17"
+        app:layout_constraintTop_toBottomOf="@+id/httpAgentButton" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Error logs"
+        android:textAllCaps="false"
+        android:layout_marginRight="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/button18"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button17" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="Soap Actions"
+        android:textAllCaps="false"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/button17"
+        app:layout_constraintTop_toBottomOf="@+id/button18" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Easy Location"
+        android:textAllCaps="false"
+        android:visibility="gone"
+        app:layout_constraintEnd_toStartOf="@+id/button22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button19" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="a"
+        android:textAllCaps="false"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button21"
+        app:layout_constraintTop_toBottomOf="@+id/button20" />
+</androidx.constraintlayout.widget.ConstraintLayout>

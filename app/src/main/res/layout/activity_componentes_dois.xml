@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <br.com.componentes.RoundImageView
+            android:id="@+id/roundImageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="108dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cidade"
+            app:borderColor="@color/colorAccent"
+            app:borderWidth="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/roundishImageView" />
+
+        <br.com.componentes.RoundishImageView
+            android:id="@+id/roundishImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cidade"
+            app:cornerRadius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:roundedCorners="topLeft|bottomRight" />
+
+        <br.com.componentes.ProgressImageView
+            android:id="@+id/progressImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            app:cornerRadius="10dp"
+            app:layout_constraintBottom_toBottomOf="@+id/roundImageView"
+            app:layout_constraintStart_toEndOf="@+id/roundImageView"
+            app:layout_constraintTop_toBottomOf="@+id/roundishImageView"
+            app:progressSize="200dp"
+            app:roundedCorners="topLeft|bottomRight"
+            app:src="@drawable/home" />
+
+        <br.com.componentes.ProgressImageView
+            android:id="@+id/lupaProgressImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="16dp"
+            app:cornerRadius="10dp"
+            app:layout_constraintBottom_toBottomOf="@+id/progressImageView"
+            app:layout_constraintStart_toEndOf="@+id/progressImageView"
+            app:layout_constraintTop_toBottomOf="@+id/roundishImageView"
+            app:progressColor="#2DB200"
+            app:progressSize="150dp"
+            app:roundedCorners="topLeft|bottomRight"
+            app:src="@drawable/lupa" />
+
+        <br.com.componentes.ProgressButton
+            android:id="@+id/progressButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/roundImageView"
+            app:progressColor="#2DB200"
+            app:progressSize="100dp"
+            app:text="Ok Big Guy" />
+
+        <br.com.componentes.ProgressButton
+            android:id="@+id/progressButtonOk"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/progressButton"
+            app:layout_constraintTop_toBottomOf="@+id/roundImageView"
+            app:progressColor="#2DB200"
+            app:progressSize="100dp"
+            app:text="Ok" />
+
+        <Button
+            android:id="@+id/ovalButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="OVAL"
+            app:layout_constraintStart_toEndOf="@+id/drawableButton"
+            app:layout_constraintTop_toBottomOf="@+id/progressButtonOk" />
+
+        <Button
+            android:id="@+id/bitimapButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="ICON BITMAP"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/progressButton" />
+
+        <Button
+            android:id="@+id/drawableButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="ICON DRAWABLE"
+            app:layout_constraintStart_toEndOf="@+id/bitimapButton"
+            app:layout_constraintTop_toBottomOf="@+id/progressButtonOk" />
+
+        <Button
+            android:id="@+id/snackBarButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SNACK BAR"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ovalButton" />
+
+        <Button
+            android:id="@+id/errorButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Error"
+            app:layout_constraintStart_toEndOf="@+id/snackBarButton"
+            app:layout_constraintTop_toBottomOf="@+id/ovalButton" />
+
+        <Button
+            android:id="@+id/listenerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Listener"
+            app:layout_constraintStart_toEndOf="@+id/errorButton"
+            app:layout_constraintTop_toBottomOf="@+id/ovalButton" />
+
+        <Button
+            android:id="@+id/progressDialogButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Progress Dialog"
+            app:layout_constraintEnd_toStartOf="@+id/helpButton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/snackBarButton" />
+
+        <br.com.componentes.HelpButton
+            android:id="@+id/helpButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="3dp"
+            app:color="@color/colorError"
+            app:helpMsg="Teste aqui"
+            app:layout_constraintBottom_toBottomOf="@+id/progressDialogButton"
+            app:layout_constraintEnd_toStartOf="@+id/editTextNumber"
+            app:layout_constraintStart_toEndOf="@+id/progressDialogButton"
+            app:layout_constraintTop_toTopOf="@+id/progressDialogButton" />
+
+        <EditText
+            android:id="@+id/editTextNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:focusable="false"
+            android:text="5.75"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/helpButton"
+            app:layout_constraintTop_toTopOf="@+id/progressDialogButton" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

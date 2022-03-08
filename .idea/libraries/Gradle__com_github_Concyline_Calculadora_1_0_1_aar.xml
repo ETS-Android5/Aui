@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Concyline:Calculadora:1.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/626e1e5b2e119043dd41d05f9f5d919c/transformed/Calculadora-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/626e1e5b2e119043dd41d05f9f5d919c/transformed/Calculadora-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/626e1e5b2e119043dd41d05f9f5d919c/transformed/Calculadora-1.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Concyline/Calculadora/1.0.1/6e2bd4b73ff8f4d41bfb3b7620f5a9956275c19b/Calculadora-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

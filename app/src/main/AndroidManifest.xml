@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.aui">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_teste"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_teste"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Aui">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ui.CalculadoraDialogActivity"/>
+        <activity android:name=".ui.ComponentesActivity"/>
+        <activity android:name=".ui.ErrorActivity"/>
+        <activity android:name=".ui.HawkActivity"/>
+        <activity android:name=".ui.HttpAgentActivity"/>
+        <activity android:name=".ui.ComponentesDoisActivity" />
+        <activity android:name=".ui.ComponentesTresActivity" />
+        <activity android:name=".ui.UtilActivity" />
+        <activity android:name=".ui.ManipulaTextoActivity" />
+        <activity android:name=".ui.SwipLayoutActivity" />
+        <activity android:name=".ui.EasyFontsActivity" />
+        <activity android:name=".ui.SignatureActivity" />
+        <activity android:name=".ui.SoapActionActivity"/>
+
+        <activity android:name=".ui.LerQrBarCodeActivity" />
+        <activity android:name="br.com.leitor.LeitorActivity" />
+
+        <activity android:name="br.com.error.DefaultActivity" />
+
+        <activity android:name=".ui.CamPixActivity"/>
+        <activity android:name="br.com.campix.Pix" />
+
+        <activity
+            android:name=".ui.ZoomFrameImageViewActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+    </application>
+
+</manifest>

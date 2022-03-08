@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <br.com.componentes.GeometricProgressView
+                android:id="@+id/progressView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin"
+                app:gp_number_of_angles="3" />
+
+            <br.com.componentes.GeometricProgressView
+                android:id="@+id/progressView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin"
+                app:gp_number_of_angles="4" />
+
+            <br.com.componentes.GeometricProgressView
+                android:id="@+id/progressView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin"
+                app:gp_number_of_angles="5" />
+
+            <br.com.componentes.GeometricProgressView
+                android:id="@+id/progressView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin"
+                app:gp_number_of_angles="6" />
+
+            <br.com.componentes.GeometricProgressView
+                android:id="@+id/progressView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin"
+                app:gp_number_of_angles="10" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <br.com.componentes.GeometricProgressView
+                android:id="@+id/progressView6"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin"
+                app:gp_number_of_angles="3"
+                app:gp_type="triangle" />
+
+            <br.com.componentes.GeometricProgressView
+                android:id="@+id/progressView7"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin"
+                app:gp_number_of_angles="4"
+                app:gp_type="triangle" />
+
+            <br.com.componentes.GeometricProgressView
+                android:id="@+id/progressView8"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin"
+                app:gp_color="@android:color/holo_blue_dark"
+                app:gp_number_of_angles="5"
+                app:gp_type="triangle" />
+
+            <br.com.componentes.GeometricProgressView
+                android:id="@+id/progressView9"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin"
+                app:gp_number_of_angles="6"
+                app:gp_type="triangle" />
+
+            <br.com.componentes.GeometricProgressView
+                android:id="@+id/progressView10"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin"
+                app:gp_number_of_angles="10"
+                app:gp_type="triangle" />
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <br.com.componentes.GeometricProgressView
+                android:id="@+id/progressView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin"
+                app:gp_duration="3000"
+                app:gp_number_of_angles="8" />
+
+            <br.com.componentes.GeometricProgressView
+                android:id="@+id/progressView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin"
+                app:gp_figure_padding="8dp"
+                app:gp_number_of_angles="6"
+                app:gp_type="triangle" />
+
+            <br.com.componentes.GeometricProgressView
+                android:id="@+id/progressView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin"
+                app:gp_duration="500"
+                app:gp_number_of_angles="6" />
+
+            <br.com.componentes.GeometricProgressView
+                android:id="@+id/progressView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin"
+                app:gp_figure_padding="8dp"
+                app:gp_number_of_angles="10"
+                app:gp_type="kite" />
+
+            <br.com.componentes.GeometricProgressView
+                android:id="@+id/progressView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin"
+                app:gp_figure_padding="1dp"
+                app:gp_number_of_angles="50" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <br.com.componentes.DotLoader
+        android:id="@+id/text_dot_loader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:color_array="@array/dot_colors"
+        app:dot_radius="4dp"
+        app:layout_constraintEnd_toStartOf="@+id/helpButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:number_of_dots="3" />
+
+    <br.com.componentes.HelpButton
+        android:id="@+id/helpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:color="@color/colorError"
+        app:helpMsg="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/text_dot_loader"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="Open Custom Dialog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_dot_loader" />
+
+    <br.com.componentes.RecyclerViewButton
+        android:id="@+id/recyclerViewButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:horizontalDivider="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button12"
+        app:locationButton="none"
+        app:numberOfColumns="2"
+        app:basic="false"
+        app:refresh="true"
+        app:verticalDivider="true" />
+</androidx.constraintlayout.widget.ConstraintLayout>

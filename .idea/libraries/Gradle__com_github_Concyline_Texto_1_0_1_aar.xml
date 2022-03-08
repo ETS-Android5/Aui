@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Concyline:Texto:1.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8351810cab5f89a2b0fd2d7713419262/transformed/Texto-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8351810cab5f89a2b0fd2d7713419262/transformed/Texto-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8351810cab5f89a2b0fd2d7713419262/transformed/Texto-1.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Concyline/Texto/1.0.1/be8388cca6c6accd5a58d9be5ec355b873397362/Texto-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

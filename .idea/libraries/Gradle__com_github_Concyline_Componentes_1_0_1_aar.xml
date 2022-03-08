@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Concyline:Componentes:1.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e81792e603446652e53c6e3d9db6202b/transformed/Componentes-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e81792e603446652e53c6e3d9db6202b/transformed/Componentes-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e81792e603446652e53c6e3d9db6202b/transformed/Componentes-1.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Concyline/Componentes/1.0.1/e96c24e92166595551003b9af5bebcdcc8d502d8/Componentes-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

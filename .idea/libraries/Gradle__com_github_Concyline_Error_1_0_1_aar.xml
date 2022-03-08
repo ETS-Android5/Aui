@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Concyline:Error:1.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ea3cbccf25e588f5433885b9e9390c2d/transformed/Error-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ea3cbccf25e588f5433885b9e9390c2d/transformed/Error-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ea3cbccf25e588f5433885b9e9390c2d/transformed/Error-1.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Concyline/Error/1.0.1/1dcb1a44779eece612208a493dc7130e1b13a439/Error-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

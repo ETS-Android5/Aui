@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".ui.ComponentesActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutsafda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="16dp">
+
+            <br.com.componentes.EditTextCalendar
+                android:id="@+id/editTextLegenda22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                app:title="Só data"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="156dp" />
+
+            <br.com.componentes.EditTextCalendar
+                android:id="@+id/editTextCalendarLegenda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:hora="true"
+                app:inicializa="false"
+                app:title="EditTextCalendarLegenda"
+                tools:layout_editor_absoluteX="112dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutsafdasd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+            <br.com.componentes.EditTextTitle
+                android:id="@+id/cadastroEditTextLegenda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                app:coricon="#D6C"
+                app:iconRigth="@drawable/icons_coroa_48"
+                app:inputType="number"
+                app:title="Nome do cliente"
+                app:tamTitle="@dimen/tamLegendaEditTextUi" />
+
+            <br.com.componentes.EditTextTitle
+                android:id="@+id/editTextLegenda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:colorTitle="@color/colorAccent"
+                app:enabled="true"
+                app:focusable="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextCalendarLegenda"
+                app:title="Componente simples"
+                app:requerido="false"
+                app:requestfocus="true"
+                app:tag="edittext"
+                app:text="texto" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutasdasd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayoutsafdasd">
+
+            <br.com.componentes.TextViewTitle
+                android:id="@+id/textViewsd"
+                android:layout_width="372dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                app:corDescricao="@color/colorPrimaryDark"
+                app:colorTitle="@color/colorAccent"
+                app:descricao="Goiânia  adsdasdadsdasdsdasdsadsadsadasdsa"
+                app:title="Cidade"
+                app:singleLine="false"
+                app:tamDescricao="16sp"
+                app:tamTitle="13sp" />
+
+            <br.com.componentes.EditTextTitle
+                android:id="@+id/editTextLegenda2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:enabled="true"
+                app:focusable="true"
+                app:title="Mascara"
+                app:legendaRequerido="Digite um CNPJ válido!"
+                app:mascara="  .   .   /    -  "
+                app:requerido="true"
+                app:requestfocus="false"
+                app:tag="edittext"
+                app:text="texto"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="346dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayoutsafda">
+
+            <br.com.componentes.SpinnerTitle
+                android:id="@+id/spinnerLegenda"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                app:entries="@array/tipo"
+                app:title="Spinner" />
+
+            <br.com.componentes.EditTextSearch
+                android:id="@+id/searchLegenda"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:coricon="@color/colorAccent"
+                app:hint="sua pesquisa"
+                app:title=" "
+                app:inputType="none"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutasd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayoutasdasd">
+
+            <br.com.componentes.EditTextTitle
+                android:id="@+id/senhaEditTextLegenda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:coricon="@color/colorAccent"
+                app:iconRigth="@drawable/round_visibility_black_48dp"
+                app:inputType="textPassword"
+                app:title="Senha"
+                app:tamTitle="@dimen/tamLegendaEditTextUi"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="610dp" />
+
+        </LinearLayout>
+
+        <br.com.componentes.EditTextTitle
+            android:id="@+id/multilineEditTextLegenda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:coricon="@color/colorAccent"
+            app:inputType="textMultiLine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayoutasd"
+            app:title="Multiline"
+            app:lines="4"
+            app:tamTitle="@dimen/tamLegendaEditTextUi"
+            app:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s" />
+
+        <br.com.componentes.EditTextTitle
+            android:id="@+id/editTextLegendaSelection"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:colorTitle="@color/colorAccent"
+            app:enabled="true"
+            app:focusable="true"
+            app:layout_constraintEnd_toStartOf="@+id/editTextLegenda22asd"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/multilineEditTextLegenda"
+            app:title="Set Selection"
+            app:requerido="false"
+            app:requestfocus="true"
+            app:tag="edittext"
+            app:text="texto" />
+
+        <br.com.componentes.EditTextCalendar
+            android:id="@+id/editTextLegenda22asd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/editTextLegendaSelection"
+            app:layout_constraintTop_toBottomOf="@+id/multilineEditTextLegenda"
+            app:title="Só data" />
+
+
+        <br.com.componentes.EditTexCurrency
+            android:id="@+id/editTexFinaceirotLegenda"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            app:colorTitle="@color/colorAccent"
+            app:enabled="true"
+            app:focusable="true"
+            app:layout_constraintEnd_toStartOf="@+id/button9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextLegendaSelection"
+            app:title="Editext Currency"
+            app:requerido="false"
+            app:locale="pt_BR"
+            app:requestfocus="true"
+            app:showSymbol="false"
+            app:tag="edittext"
+            app:text="" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="Ok"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/editTexFinaceirotLegenda"
+            app:layout_constraintTop_toBottomOf="@+id/editTextLegenda22asd" />
+
+
+        <br.com.componentes.TextViewTitle
+            android:id="@+id/textViewsdasd"
+            android:layout_width="372dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:colorTitle="@color/colorAccent"
+            app:corDescricao="@color/colorPrimaryDark"
+            app:descricao="Goiânia"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTexFinaceirotLegenda"
+            app:singleLine="false"
+            app:tamDescricao="16sp"
+            app:tamTitle="13sp"
+            app:title="Cidade" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

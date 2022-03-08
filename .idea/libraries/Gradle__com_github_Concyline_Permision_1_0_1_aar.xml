@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Concyline:Permision:1.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b2565366f7afaa7aa3d210dfa26d2f0e/transformed/Permision-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b2565366f7afaa7aa3d210dfa26d2f0e/transformed/Permision-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b2565366f7afaa7aa3d210dfa26d2f0e/transformed/Permision-1.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Concyline/Permision/1.0.1/e409c15880fe7b05ea407243e58784246e6fb481/Permision-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

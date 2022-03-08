@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Concyline:Hawk:1.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b48b4f81b4a1058e71ba603c768b5ecc/transformed/Hawk-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b48b4f81b4a1058e71ba603c768b5ecc/transformed/Hawk-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b48b4f81b4a1058e71ba603c768b5ecc/transformed/Hawk-1.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Concyline/Hawk/1.0.1/510f279e6d520dab459f5c465b72faa685452bdf/Hawk-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
