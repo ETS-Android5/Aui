@@ -78,7 +78,18 @@ TAG = [![](https://jitpack.io/v/Concyline/Ui.svg)](https://jitpack.io/#Concyline
 dependencies {
 	implementation 'androidx.multidex:multidex:2.0.1'
 	
-	implementation 'com.github.Concyline:Androidui_2:TAG'
+	implementation 'com.github.Concyline:Calculadora:[![](https://jitpack.io/v/Concyline/Ui.svg)](https://jitpack.io/#Concyline/Ui)'
+    	implementation 'com.github.Concyline:Campix:1.0.1'
+    	implementation 'com.github.Concyline:Componentes:1.0.1'
+    	implementation 'com.github.Concyline:Error:1.0.1'
+    	implementation 'com.github.Concyline:Hawk:1.0.1'
+    	implementation 'com.github.Concyline:Httpagent:1.0.1'
+    	implementation 'com.github.Concyline:Leitor:1.0.1'
+    	implementation 'com.github.Concyline:Permision:1.0.1'
+    	implementation 'com.github.Concyline:Shortcut:1.0.1'
+    	implementation 'com.github.Concyline:Signature:1.0.1'
+    	implementation 'com.github.Concyline:Texto:1.0.1'
+    	implementation 'com.github.Concyline:Util:1.0.1'
 }
 ```
 
