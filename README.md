@@ -57,12 +57,15 @@ This library has 6 modules to aid Android development, speeding up the completio
 
 Add Maven Central to the project's build.gradle :
 ```java
-allprojects {
-	repositories {
-		...
-		maven { url 'https://jitpack.io' }
-		maven { url 'https://oss.sonatype.org/content/repositories/ksoap2-android-releases' }
-	}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+
+        maven { url 'https://jitpack.io' }
+        maven { url 'https://oss.sonatype.org/content/repositories/ksoap2-android-releases' }
+    }
 }
 ````
 
