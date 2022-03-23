@@ -40,7 +40,7 @@ This library has 6 modules to aid Android development, speeding up the completio
    - [ActionBarCuston](#ActionBarCuston)
    - [MeasureIcon](#MeasureIcon)
    - [EasyLocation](#EasyLocation)
-   - [Send Intents](#Send Intents)
+   - [Send Intents](#Send-Intents)
  * [CamPix](#CamPix)
  * [PhotoView](#PhotoView)
  * [Zoom Frame](#Zoom-Frame)
