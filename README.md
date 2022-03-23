@@ -1377,15 +1377,15 @@ tv_hello.setTypeface(EasyFonts.robotoThin(this));
 
 in res/xml 
 ````xml
-<?xml version="1.0" encoding="utf-8"?>
-<paths xmlns:android="http://schemas.android.com/apk/res/android">
-    <external-path name="apk" path="/"/>
-</paths>
+	<?xml version="1.0" encoding="utf-8"?>
+	<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    		<external-path name="apk" path="/"/>
+	</paths>
 ````
 
 in Manifest.xml
 ````xml
-<provider
+	<provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="${applicationId}.provider"
             android:exported="false"
@@ -1397,9 +1397,9 @@ in Manifest.xml
 ````
 
 ````java
-      Email email = new Email.Builder()
-           .setTitle("Email para funcionario tal")
-           .setMessage("Message 11:08")
+        Email email = new Email.Builder()
+           .setTitle("Title")
+           .setMessage("Message")
            .setPath(Environment.getExternalStorageDirectory() + "/SC")
            .setEmails(new String[]{"concyline@hotmail.com"})
            .build();
