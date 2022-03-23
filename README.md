@@ -1400,14 +1400,14 @@ in Manifest.xml
         Email email = new Email.Builder()
            .setTitle("Title")
            .setMessage("Message")
-           .setPath(Environment.getExternalStorageDirectory() + "/SC")
-           .setEmails(new String[]{"concyline@hotmail.com"})
+           .setPath(Environment.getExternalStorageDirectory() + "/Folder")
+           .setEmails(new String[]{"email@hotmail.com"})
            .build();
 
         try {
             Send.email(this, email);
 
-            Send.file(this, Environment.getExternalStorageDirectory() + "/SC/cidades.rar");
+            Send.file(this, Environment.getExternalStorageDirectory() + "/SC/file.rar");
         } catch (Exception e) {
             e.printStackTrace();
         }
