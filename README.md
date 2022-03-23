@@ -40,6 +40,7 @@ This library has 6 modules to aid Android development, speeding up the completio
    - [ActionBarCuston](#ActionBarCuston)
    - [MeasureIcon](#MeasureIcon)
    - [EasyLocation](#EasyLocation)
+   - [Send Intents](#Send Intents)
  * [CamPix](#CamPix)
  * [PhotoView](#PhotoView)
  * [Zoom Frame](#Zoom-Frame)
@@ -1370,6 +1371,46 @@ tv_hello.setTypeface(EasyFonts.robotoThin(this));
      actionBarCuston.setSubTitleColor("#E60000");
 
      actionBarCuston.setBar("Teste", "Subtitle");
+````
+
+## Send Intents
+
+in res/xml 
+````xml
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <external-path name="apk" path="/"/>
+</paths>
+````
+
+in Manifest.xml
+````xml
+<provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+````
+
+````java
+      Email email = new Email.Builder()
+           .setTitle("Email para funcionario tal")
+           .setMessage("Message 11:08")
+           .setPath(Environment.getExternalStorageDirectory() + "/SC")
+           .setEmails(new String[]{"concyline@hotmail.com"})
+           .build();
+
+        try {
+            Send.email(this, email);
+
+            Send.file(this, Environment.getExternalStorageDirectory() + "/SC/cidades.rar");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 ````
 
 ## MeasureIcon
