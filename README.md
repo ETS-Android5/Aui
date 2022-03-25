@@ -499,6 +499,77 @@ AsyncTask
 }
 ````
 
+### BaseAdapter
+
+````java
+public class MainActivity extends AppCompatActivity implements OnViewHolderClickListener {
+
+    private RecyclerView recyclerView;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        recyclerView = findViewById(R.id.recyclerview);
+
+        recyclerView.setLayoutManager(BaseAdapter.getGridLayoutManager(this));
+        recyclerView.addItemDecoration(BaseAdapter.getDividerItemDecoration(this, LinearLayoutManager.VERTICAL));
+        recyclerView.addItemDecoration(BaseAdapter.getDividerItemDecoration(this, LinearLayoutManager.HORIZONTAL));
+
+        recyclerView.setAdapter(new CustomAdapter(generateData(), this));
+    }
+
+    private List<Cidade> generateData() {
+        List<Cidade> data = new ArrayList<>();
+        for (int i = 0; i < 100; i++) {
+            data.add(new Cidade("Cidade " + i, "UF " + i));
+        }
+        return data;
+    }
+
+    @Override
+    public void onClickListener(int positionOfItem) {
+        Toast.makeText(this, "onClickAtItem " + positionOfItem, Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onLongClickListener(int position) {
+        Toast.makeText(this, "onLongClickListener " + position, Toast.LENGTH_SHORT).show();
+    }
+}
+````
+
+
+````java
+public class CustomAdapter extends BaseAdapter<Cidade> {
+
+    public CustomAdapter(List<Cidade> data, OnViewHolderClickListener itemClickListener) {
+        super(data, itemClickListener);
+    }
+
+    @Override
+    protected int getItemView() {
+        return R.layout.cidade_item;
+    }
+
+    @Override
+    protected int[] getResIdOfInflatedViews() {
+        return new int[]{R.id.nomeTextView, R.id.ufTextView};
+    }
+
+    @Override
+    public void onBindViewHolder(ClickableViewHolder holder, int position) {
+
+        final Cidade item = getItem(position);
+
+        ((TextView)holder.getViewById(getResIdOfInflatedViews()[0])).setText(item.getNome());
+        ((TextView)holder.getViewById(getResIdOfInflatedViews()[1])).setText(item.getUf());
+
+    }
+}
+````
+
 ---
 ### ProgressImageView
 
