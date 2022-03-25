@@ -19,6 +19,7 @@ This library has 6 modules to aid Android development, speeding up the completio
    - [EditTexCurrency](#EditTexCurrency)
    - [RecyclerViewParallax](#RecyclerViewParallax)
    - [RecyclerViewButton](#RecyclerViewButton)
+  	 - [BaseAdapter](#BaseAdapter)
    - [ProgressImageView](#ProgressImageView)
    - [ProgressButton](#ProgressButton)
    - [HelpButton](#HelpButton)
