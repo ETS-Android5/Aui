@@ -255,6 +255,7 @@ spinnerTitle.setAdapter(adapter);
             app:corDescricao="@color/colorPrimaryDark"
             app:colorTitle="@color/colorAccent"
 	    app:tamTitle="13sp"
+	    app:gravity="left"
 	    app:layout_constraintWidth_percent="0.2"
             app:tamDescricao="16sp"
 	    app:singleLine="false"
